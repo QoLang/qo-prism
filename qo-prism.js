@@ -8,6 +8,6 @@ Prism.languages['qo'] = {
     'variable': /([a-zA-Z0-9_]+)/,
 	'builtin': /(println|print|input|toInt|toStr|toBool|type|exit|mod|None|exportAll)/,
     'boolean': /(True|False)/,
-    'operator': /(\+|-|\*|\/|=|<|>|<=|>=|==|!=|as|in|&|%|&&|\|\|\+=)/,
+    'operator': /(\+|-|\*|\/|=|<|>|<=|>=|==|!=|as|in|&|%|&&|\|\|\+=|\*\*)/,
     'punctuation': /(\(|\)|,|\[|\]|;|:|{|})/,
 };
