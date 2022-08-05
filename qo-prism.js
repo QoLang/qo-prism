@@ -2,7 +2,7 @@ Prism.languages['qo'] = {
     'comment': /(\/\*[^\*\/]*\*\/)|(#.+[^$])/,
     'string': /("(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)*')/s,
 	'builtin': /(?<![a-zA-Z0-9_])(println|print|input|exit|hasAttr|exists|remove|None|chr|len|__main__|__qcf__)(?![a-zA-Z0-9_])/,
-	'keyword': /(func|elif|if|else|return|foreach|for|while|times|include|define)/,
+	'keyword': /(?<![a-zA-Z0-9_])(func|elif|if|else|return|foreach|for|while|times|include|define)(?![a-zA-Z0-9_])/,
     'number': /([0-9]+)/,
     'function': /([a-zA-Z0-9_]+)(?=\()/,
     'important': /(__export__|(?=include )[a-zA-Z0-9_]+)/,
